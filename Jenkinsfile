@@ -11,7 +11,7 @@ pipeline {
 		stage('build'){
 			steps{
 				sh '''
-					export PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin'
+					export PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin
 					npm init
 					npm test
 				'''
