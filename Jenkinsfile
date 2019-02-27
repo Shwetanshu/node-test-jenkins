@@ -10,6 +10,7 @@ pipeline {
 		
 		stage('build'){
 			steps{
+				sh 'export PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin'
 				sh 'npm init'
 				sh 'npm test'
 			}
