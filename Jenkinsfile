@@ -10,7 +10,8 @@ pipeline {
 		
 		stage('build'){
 			steps{
-				echo "Building.."
+				sh 'npm init'
+				sh 'npm test'
 			}
 		}
 		
