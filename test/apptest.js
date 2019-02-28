@@ -10,7 +10,7 @@ addNumbersResult = app.addNumbers(5,5);
 describe('App', function(){
 	describe('sayHello', function(){
 		it('app should return hello', function(){
-		assert.equal(sayHelloResult, 'hello1');
+		assert.equal(sayHelloResult, 'hello');
 		});
 
 		it('app should return type string', function(){
