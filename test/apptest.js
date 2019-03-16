@@ -5,7 +5,7 @@ const app = require('../index');
 
 
 sayHelloResult = app.sayHello();
-addNumbersResult = app.addNumbers(5,5);
+addNumbersResult = app.addNumbers(5,15);
 
 describe('App', function(){
 	describe('sayHello', function(){
